@@ -7,7 +7,7 @@ requirements = ['requests<=2.24.0']
 
 setuptools.setup(
     name='hello_world_crock-dev',
-    version='0.0.1',
+    version='0.0.3',
     author='Crock-dev',
     author_email='leiko.dima2013@yandex.by',
     description='A Hello World package',
