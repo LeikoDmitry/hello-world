@@ -13,7 +13,7 @@ setuptools.setup(
     description='A Hello World package',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/ericjaychi/sample-pypi-package',
+    url='https://github.com/LeikoDmitry/hello-world',
     packages=setuptools.find_packages(),
     install_requires=requirements,
     classifiers=[
