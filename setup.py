@@ -5,7 +5,7 @@ with open('README.md', 'r') as f:
 
 setuptools.setup(
     name='hello_world_crock-dev',
-    version='1.0.0',
+    version='1.1.0',
     author='Crock-dev',
     author_email='leiko.dima2013@yandex.by',
     description='A Hello World package',
