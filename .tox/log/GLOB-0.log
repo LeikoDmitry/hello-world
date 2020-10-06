@@ -1,0 +1,47 @@
+action: GLOB, msg: packaging
+cwd: /var/www/my_world
+cmd: /var/www/my_world/venv/bin/python setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing hello_world_crock_dev.egg-info/PKG-INFO
+writing dependency_links to hello_world_crock_dev.egg-info/dependency_links.txt
+writing requirements to hello_world_crock_dev.egg-info/requires.txt
+writing top-level names to hello_world_crock_dev.egg-info/top_level.txt
+reading manifest file 'hello_world_crock_dev.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'hello_world_crock_dev.egg-info/SOURCES.txt'
+running check
+creating hello_world_crock-dev-1.0.0
+creating hello_world_crock-dev-1.0.0/hello_world
+creating hello_world_crock-dev-1.0.0/hello_world_crock_dev.egg-info
+copying files to hello_world_crock-dev-1.0.0...
+copying LICENSE.md -> hello_world_crock-dev-1.0.0
+copying MANIFEST.in -> hello_world_crock-dev-1.0.0
+copying README.md -> hello_world_crock-dev-1.0.0
+copying setup.py -> hello_world_crock-dev-1.0.0
+copying hello_world/__init__.py -> hello_world_crock-dev-1.0.0/hello_world
+copying hello_world/main.py -> hello_world_crock-dev-1.0.0/hello_world
+copying hello_world_crock_dev.egg-info/PKG-INFO -> hello_world_crock-dev-1.0.0/hello_world_crock_dev.egg-info
+copying hello_world_crock_dev.egg-info/SOURCES.txt -> hello_world_crock-dev-1.0.0/hello_world_crock_dev.egg-info
+copying hello_world_crock_dev.egg-info/dependency_links.txt -> hello_world_crock-dev-1.0.0/hello_world_crock_dev.egg-info
+copying hello_world_crock_dev.egg-info/requires.txt -> hello_world_crock-dev-1.0.0/hello_world_crock_dev.egg-info
+copying hello_world_crock_dev.egg-info/top_level.txt -> hello_world_crock-dev-1.0.0/hello_world_crock_dev.egg-info
+Writing hello_world_crock-dev-1.0.0/setup.cfg
+creating '.tox/dist/hello_world_crock-dev-1.0.0.zip' and adding 'hello_world_crock-dev-1.0.0' to it
+adding 'hello_world_crock-dev-1.0.0'
+adding 'hello_world_crock-dev-1.0.0/hello_world_crock_dev.egg-info'
+adding 'hello_world_crock-dev-1.0.0/hello_world'
+adding 'hello_world_crock-dev-1.0.0/PKG-INFO'
+adding 'hello_world_crock-dev-1.0.0/LICENSE.md'
+adding 'hello_world_crock-dev-1.0.0/setup.cfg'
+adding 'hello_world_crock-dev-1.0.0/setup.py'
+adding 'hello_world_crock-dev-1.0.0/MANIFEST.in'
+adding 'hello_world_crock-dev-1.0.0/README.md'
+adding 'hello_world_crock-dev-1.0.0/hello_world_crock_dev.egg-info/PKG-INFO'
+adding 'hello_world_crock-dev-1.0.0/hello_world_crock_dev.egg-info/dependency_links.txt'
+adding 'hello_world_crock-dev-1.0.0/hello_world_crock_dev.egg-info/SOURCES.txt'
+adding 'hello_world_crock-dev-1.0.0/hello_world_crock_dev.egg-info/top_level.txt'
+adding 'hello_world_crock-dev-1.0.0/hello_world_crock_dev.egg-info/requires.txt'
+adding 'hello_world_crock-dev-1.0.0/hello_world/__init__.py'
+adding 'hello_world_crock-dev-1.0.0/hello_world/main.py'
+removing 'hello_world_crock-dev-1.0.0' (and everything under it)
