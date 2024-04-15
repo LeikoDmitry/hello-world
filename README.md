@@ -1,7 +1,5 @@
 # Simple package PyPi
 
-[![Build Status](https://travis-ci.com/LeikoDmitry/hello-world.svg?branch=master)](https://travis-ci.com/LeikoDmitry/hello-world)
-
 This is simple package to publish into PyPi.
 
 ## Installation
